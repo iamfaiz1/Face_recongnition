@@ -1,0 +1,10 @@
+*.jpg
+*.png
+*.jpeg
+
+*.mp4
+*.avi
+*.mov
+
+*.venv
+__pycache__/
