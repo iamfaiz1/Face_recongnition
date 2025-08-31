@@ -8,7 +8,7 @@ It detects the Face and then checks from the previously loaded database of known
 - clone this repo wherever u want.
 - enter the Face_recognisiton using     *cd face_recognition*     then hit *tab* then *enter*
 - **now u need to create a virtual environment to smoothly run this project**
-    -now type:    *py -3.9 -m venv .venv*
+    now type:    *py -3.9 -m venv .venv*   (u need to install python version 3.9 for this project as latest python 3.13-3.14 are not compatible, if u dont have version 3.9 then install it first)
     - activate the virtual environment:    *.venv\Scripts\activate*    (this commonad is only for windows user)
     - **download all dependencies:-**
     -  u just have to type in terminal (powershell):   *pip install -r requirements.txt*
