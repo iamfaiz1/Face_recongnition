@@ -1,27 +1,24 @@
 # Face_Recognition
 
-## This project is made using OpenCV, FaceNet, Mtcnn.
-It detects the Face and then checks from the previously loaded database of known Faces and matches the Face.
+This project is made using **OpenCV**, **FaceNet**, and **MTCNN**.  
+It detects a face and then checks from the previously loaded database of known faces to find a match.
 
-## how to run???
-**step-1**
-- clone this repo wherever u want.
-- enter the Face_recognisiton using
-       -*cd face_recognition*
-       - then hit *tab* then *enter*
-- **now u need to create a virtual environment to smoothly run this project**
-      now type:
-       -*py -3.9 -m venv .venv*
-       -(u need to install python version 3.9 for this project as latest python 3.13-3.14 are not compatible, if u dont have version 3.9 then install it first)
-    - activate the virtual environment:
-       -*.venv\Scripts\activate*
-       -(this commonad is only for windows user)
-    - **download all dependencies:-**
-    - u just have to type in terminal (powershell):
-           -*pip install -r requirements.txt*
-    -  after installation u need to **create folder** :
-           -*'known_faces'*
-           -here well add those faces which we will use for matching.
-    -  now run the main fine in .venv environment :
-           -*python main.py*
-    -  and enjoyy.
+---
+
+## 🚀 How to Run
+
+### Step 1: Clone the Repository at ur desired location, below is the command
+```bash
+git clone git@github.com:iamfaiz1/Face_recongnition.git
+
+//enter the project directory (type then enter):
+cd face_recognition
+
+
+// creating virtual environment for smooth setup and executiion (make sure u have python 3.9 installed otherwises install it first)
+
+py -3.9 -m venv .venv
+.venv\Scripts\activate
+pip install -r requirements.txt
+mkdir known_faces
+python main.py
